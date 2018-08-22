@@ -1,0 +1,41 @@
+body {
+		background-color: black;
+	}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{	
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    display:block;
+}
+
+.center {
+    position: absolute;
+    top:  50%;
+    left: 50%;
+}
+
+	.button {
+    		background-color: #000000;
+    		border: none;
+    		color: gray;
+    		padding: 15px 32px;
+    		text-align: center;
+    		text-decoration: underline overline dotted brown;
+    		display: inline-block;
+    		font-size: 16px;
+    		margin: 4px 2px;
+    		cursor: pointer;
+	}
+
+	div.a {
+     		text-align: center;
+	}
